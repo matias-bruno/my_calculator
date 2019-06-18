@@ -1,0 +1,1 @@
+Este es un ejercicio para un curso de Git y Github.
