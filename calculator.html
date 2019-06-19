@@ -21,6 +21,13 @@
             let num = document.getElementById("n1");
             num.value = Math.pow(num.value, 2);
         }
+        function inverso() {
+            let num = document.getElementById("n1");
+            if(num.value != 0)
+                num.value = 1 / num.value;
+            else
+                alert('No se puede dividir por cero')
+        }
     </script>
 </head>
 <body>
@@ -31,6 +38,7 @@
         <button onclick="potencia4()">X^4</button>
         <button onclick="seno()">Seno</button>
         <button onclick="cuadrado()">X^2</button>
+        <button onclick="inverso()">1/X</button>
     </p>
 </body>
 </html>
